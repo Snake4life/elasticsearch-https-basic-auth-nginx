@@ -1,5 +1,5 @@
 
-Simple docker image to run an Elasticsearch server
+Simple docker image to run an Elasticsearch server with Basic authentication
 
 Usage
 -----
