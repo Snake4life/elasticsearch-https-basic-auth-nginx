@@ -4,13 +4,13 @@ Simple docker image to run an Elasticsearch server with Basic authentication
 Usage
 -----
 
-To create the image `{{u_project}}/elasticsearch:0.0.1`, execute the following command on tutum-docker-influxdb folder:
+To create the image `{{u_project}}/elasticsearch:{{tag}}`, execute the following command on tutum-docker-influxdb folder:
 
-    docker build -t {{u_project}}/elasticsearch:0.0.1 .
+    docker build -t {{u_project}}/elasticsearch:{{tag}} .
 
 You can also pull the image from the registry:
 
-    docker pull {{u_project}}/elasticsearch:0.0.1
+    docker pull {{u_project}}/elasticsearch:{{tag}}
 
 
 Running elasticsearch
@@ -18,7 +18,7 @@ Running elasticsearch
 
 Start your image binding the external ports `9200` to your container:
 
-    docker run -d -p 9200:9200 {{u_project}}/elasticsearch
+    docker run -d -p 9200:9200 {{u_project}}/elasticsearch:{{tag}}
 
 Now you can connect to Elasticsearch by:
 
