@@ -1,5 +1,6 @@
+This solution replaces native authentication and encrypted traffic, which is circulated via the GOLD subscription https://www.elastic.co/subscriptions
 
-Simple docker image to run an Elasticsearch server with Basic authentication
+This Simple docker image to run an Elasticsearch server with Basic authentication and encryption via https
 
 Usage
 -----
